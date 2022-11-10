@@ -15,5 +15,7 @@ services:
       terrconf_upnp: 0
       terrconf_npcstream: 20
       terrconf_priority: 1
+      terrconf_worldname: "ServersAus"
+      terrconf_world: "/root/.local/share/Terraria/ServersAus.wld"
     volumes:
       - "/root/terraria_data:/root/.local/share/Terraria"
