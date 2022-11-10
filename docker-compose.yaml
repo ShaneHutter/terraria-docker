@@ -1,0 +1,19 @@
+version: "3.7"
+services:
+  7days:
+    image: "terraria:latest"
+    ports:
+      - 7777:7777/tcp
+    environment:
+      terrconf_port: 7777
+      terrconf_autocreate: 3
+      terrconf_seed: "LordieWolfeBinglestreet"
+      terrconf_difficulty: 1
+      terrconf_maxplayers: 16
+      terrconf_password: "SAUTerraria"
+      terrconf_motd: "Servers Australia Terraria Map"
+      terrconf_upnp: 0
+      terrconf_npcstream: 20
+      terrconf_priority: 1
+    volumes:
+      - "/root/terraria_data:/root/.local/share/Terraria"
