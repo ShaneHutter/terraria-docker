@@ -1,0 +1,3 @@
+#!/bin/bash
+terraria_conf.py /root/server.conf
+/root/1448/Linux/TerrariaServer.bin.x86_64 -config /root/server.conf
