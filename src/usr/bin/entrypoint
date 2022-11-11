@@ -1,4 +1,4 @@
 #!/bin/bash
 mkdir -p /root/.config/TerrariaServer/
 terraria_conf.py /root/.config/TerrariaServer/serverconfig.txt
-/root/1448/Linux/TerrariaServer.bin.x86_64 -config /root/.config/TerrariaServer/serverconfig.txt
+/root/14481/Linux/TerrariaServer.bin.x86_64 -config /root/.config/TerrariaServer/serverconfig.txt
