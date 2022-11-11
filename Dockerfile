@@ -1,6 +1,6 @@
 from    ubuntu:latest
 
-COPY    src/terraria-server-1448.zip    /root/terraria-server-1448.zip
+COPY    src/terraria-server-14481.zip    /root/terraria-server-14481.zip
 COPY    src/usr/bin/entrypoint          /usr/bin/entrypoint
 COPY    src/usr/bin/terraria_conf.py    /usr/bin/terraria_conf.py
 
@@ -11,8 +11,8 @@ RUN apt update && \
         unzip \
         python3 && \
     cd /root && \
-    unzip terraria-server-1448.zip && \
-    cd 1448/Linux && \
+    unzip terraria-server-14481.zip && \
+    cd 14481/Linux && \
     chmod +x TerrariaServer*
 
 VOLUME /root/.local/share/Terraria
